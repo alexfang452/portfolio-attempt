@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Alex's Page
+        </title>
+    </head>
+
+
+    <body>
+        <style>
+            header{
+                background-color: blue;
+                
+            }
+
+            ul
+            {
+                list-style-type: none;
+                border-radius: 3px;
+                text-align: center;
+            }
+
+            li
+            {
+                display: inline-block;
+                margin: 20px;
+            }
+
+            a:hover
+            {
+                background-color: aqua;
+            }
+
+            nav a 
+            {
+                text-decoration: none;
+                color: white;
+            }
+
+            nav ul
+            {
+                color: white;
+            }
+
+            .info-wrap
+            {
+                width: 35%;
+                height: 551px;
+                padding: 40px;
+                float: left;
+                display: block;
+                border-radius: 30px 0px 0px 30px;
+                background: linear-gradient(144deg, rgba(126,39,156,1)0%, rgba(49,39,157,1)100%);
+            }
+
+            .info-details
+            {
+                text-align: justify;
+                padding-right: 800px;
+                
+            }
+
+            .info-details li a
+            {
+                color:white;
+                text-decoration: none;
+            }
+
+            .form-wrap
+            {
+                width: 45%;
+                float: right;
+                padding: 40px 144px 35px 25px;
+                border-radius: 0px 30px 30px 0px;
+                background-color:grey
+            }
+
+            
+        </style>
+        <header class = "header">
+        <h1>Alex Smith</h1>
+            <nav>
+            <ul id = "UIlist">
+               <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="SkillsandProjects.html">Skills & Projects</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+</header>
+
+        <section id = "sectionwrapper">
+            <div class = "box-wrapper">
+                <div class="info-wrap">
+                    <h2>Contact</h2>
+                    <h3>Fill up the form and I will get back to
+                     within 24 hours.</h3>
+                <ul class = "info-details">
+                    <li>
+                        <span>Phone: </span> <a href="tel:+1234567890">1234567890</a>
+                    </li>
+                    <li>
+                        <span>Email: </span> <a href="mailto:this@mysite.com">this@mysite.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class = "form-wrap">
+                <form action = "#" method="POST">
+                    <h4 class = "form-title">Send us a message</h4>
+                    <div class="form-fields">
+                        <div class="form-group">
+                            <input type ="text" class="fname" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <input type ="text" class="lname" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <input type ="email" class="email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <input type ="number" class="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="" placeholder="Write your 
+                            message"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Send message" class="submit-button">
+                </form>
+
+            </div>
+
+        </div>
+        </div>
+
+        </section>
+    </body>
+</html>
